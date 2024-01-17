@@ -91,7 +91,7 @@ const Home = ({ match }) => {
               <div>
                 <h3 style={contentStyle}>
                   <img
-                    src="/images/black-friday.jpg "
+                    src="/black-friday.jpg "
                     style={{
                       objectFit: "fill",
                       width: "100%",
@@ -103,7 +103,7 @@ const Home = ({ match }) => {
               <div>
                 <h3 style={contentStyle}>
                   <img
-                    src="/images/mega sale.jpg "
+                    src="/mega sale.jpg "
                     style={{
                       objectFit: "fill",
                       width: "100%",
@@ -115,7 +115,7 @@ const Home = ({ match }) => {
               <div>
                 <h3 style={contentStyle}>
                   <img
-                    src="/images/flash-sale.jpg "
+                    src="/flash-sale.jpg "
                     style={{
                       objectFit: "fill",
                       width: "100%",
@@ -127,7 +127,7 @@ const Home = ({ match }) => {
               <div>
                 <h3 style={contentStyle}>
                   <img
-                    src="/images/fabulous-life.jpg "
+                    src="/fabulous-life.jpg "
                     style={{
                       objectFit: "fill",
                       width: "100%",
