@@ -42,6 +42,7 @@ import ProtectedRoute from "./components/route/ProtectedRoute";
 import { loadUser } from "./actions/userActions";
 import { useSelector } from "react-redux";
 import store from "./store";
+import axios from "axios";
 
 // Payment
 import { Elements } from "@stripe/react-stripe-js";
@@ -68,7 +69,10 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div className="container container-fluid">
+        <div
+          className="container container-fluid"
+          style={{ marginTop: "19rem" }}
+        >
           <Route path="/" component={Home} exact />
           <Route path="/search/:keyword" component={Home} />
           <Route path="/product/:id" component={ProductDetails} exact />

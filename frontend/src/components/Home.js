@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import Pagination from "react-js-pagination";
 import Slider from "rc-slider";
 import "rc-slider/assets/index.css";
+import { Carousel } from "antd";
 
 import MetaData from "./layout/MetaData";
 import Product from "./product/Product";
@@ -65,13 +66,79 @@ const Home = ({ match }) => {
   if (keyword) {
     count = filteredProductsCount;
   }
-
+  const contentStyle = {
+    height: "300px",
+    color: "#fff",
+    textAlign: "center",
+    background: "#364d79",
+  };
   return (
     <Fragment>
       {loading ? (
         <Loader />
       ) : (
         <Fragment>
+          <div
+            style={{
+              width: "100%",
+              position: "absolute",
+              top: "11em",
+              left: 0,
+              right: 0,
+            }}
+          >
+            <Carousel autoplay>
+              <div>
+                <h3 style={contentStyle}>
+                  <img
+                    src="/images/black-friday.jpg "
+                    style={{
+                      objectFit: "fill",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
+                </h3>
+              </div>
+              <div>
+                <h3 style={contentStyle}>
+                  <img
+                    src="/images/mega sale.jpg "
+                    style={{
+                      objectFit: "fill",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
+                </h3>
+              </div>
+              <div>
+                <h3 style={contentStyle}>
+                  <img
+                    src="/images/flash-sale.jpg "
+                    style={{
+                      objectFit: "fill",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
+                </h3>
+              </div>
+              <div>
+                <h3 style={contentStyle}>
+                  <img
+                    src="/images/fabulous-life.jpg "
+                    style={{
+                      objectFit: "fill",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  />
+                </h3>
+              </div>
+            </Carousel>
+          </div>
+
           <MetaData title={"Buy Best Products Online"} />
 
           <h1 id="products_heading">Latest Products</h1>
