@@ -21,6 +21,10 @@ const auth = require("./routes/auth");
 const payment = require("./routes/payment");
 const order = require("./routes/order");
 
+app.get("/", async (req, res) => {
+  res.status(200).send({ message: "Working right now." });
+});
+
 app.use("/api/v1", products);
 app.use("/api/v1", auth);
 app.use("/api/v1", payment);
