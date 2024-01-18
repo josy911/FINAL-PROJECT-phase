@@ -1,31 +1,49 @@
-# ShopIT E-commerce Project
+# Full E-commerce Project using MERN Stack
 
-> Complete E-commerce site built with Node.js, React, Redux, Express, MongoDB
+## Table of Contents
 
-More about this project and course on Udemy. Course Name: [MERN Stack Full Ecommerce Site - Using React, Redux, Node.j](https://www.udemy.com/course/3678044)
+- [Description](#description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
 
-### Env Variables
+## Description
 
-Add your config variables values in the config.env file in backend/config folder as shown in the course.
+This is an E-commerce web application developed using the MERN stack. The project allows users to browse through a variety of products, add items to their cart, and complete the checkout process. It incorporates essential features for an E-commerce platform, including user authentication, product management, and order processing.
 
-### Install Dependencies (Frontend)
+## Features
 
-```
-cd frontend
-npm i
-```
+- User authentication (signup, login, logout)
+- Product browsing with detailed product pages
+- Shopping cart functionality
+- Checkout process with order confirmation
+- User account management
+- Admin panel for product and user management (CRUD operations)
+- Responsive design for optimal user experience on various devices
 
-### Install Dependencies (Backend)
+## Technologies Used
 
-```
-npm i
-```
+- **Frontend:**
 
-### Seed Database
+  - React.js
+  - Redux for state management
+  - React Router for navigation
+  - Axios for API requests
+  - Antd for UI components
 
-Use the following commeand to put some dummy products in that database.
-Run it in the root folder.
+- **Styling:**
+- react-bootstrap
+- CSS
 
-```
-npm run seeder
-```
+- **Backend:**
+
+  - Node.js
+  - Express.js
+  - MongoDB for the database
+  - Mongoose ODM for MongoDB
+  - JWT for user authentication
+
+- **Deployment:**
+  - Vercel (backend)
+  - Vercel (frontend)
+  - MongoDB Atlas (database)

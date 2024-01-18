@@ -29,7 +29,11 @@ This is an E-commerce web application developed using the MERN stack. The projec
   - Redux for state management
   - React Router for navigation
   - Axios for API requests
-  - Material-UI for UI components
+  - Antd for UI components
+
+- **Styling:**
+- react-bootstrap
+- CSS
 
 - **Backend:**
 
