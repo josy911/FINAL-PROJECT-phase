@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Features](#features)
+<!-- - [Features](#features) -->
 - [Technologies Used](#technologies-used)
 - [Deployment](#deployment)
 
@@ -11,7 +11,7 @@
 
 This is an E-commerce web application developed using the MERN stack. The project allows users to browse through a variety of products, add items to their cart, and complete the checkout process. It incorporates essential features for an E-commerce platform, including user authentication, product management, and order processing.
 
-## Features
+<!-- ## Features
 
 - User authentication (signup, login, logout)
 - Product browsing with detailed product pages
@@ -19,21 +19,21 @@ This is an E-commerce web application developed using the MERN stack. The projec
 - Checkout process with order confirmation
 - User account management
 - Admin panel for product and user management (CRUD operations)
-- Responsive design for optimal user experience on various devices
+- Responsive design for optimal user experience on various devices -->
 
 ## Technologies Used
 
-- **Frontend:**
+<!-- - **Frontend:**
 
   - React.js
   - Redux for state management
   - React Router for navigation
   - Axios for API requests
-  - Antd for UI components
+  - Antd for UI components -->
 
-- **Styling:**
+<!-- - **Styling:**
 - react-bootstrap
-- CSS
+- CSS -->
 
 - **Backend:**
 
@@ -45,5 +45,5 @@ This is an E-commerce web application developed using the MERN stack. The projec
 
 - **Deployment:**
   - Vercel (backend)
-  - Vercel (frontend)
+  <!-- - Vercel (frontend) -->
   - MongoDB Atlas (database)
